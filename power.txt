@@ -1,0 +1,46 @@
+Checking Whether a Number is a Power of a Given Number
+
+When solving problems related to powers of a number, an important concept to remember is that the number should be continuously divisible by the base until the final result becomes 1.
+
+If during the process we obtain a value that is not divisible by the base, or the final result is not equal to 1, then the number is not a power of that base.
+
+1. Power of 2
+
+A number is considered a power of 2 if it can be repeatedly divided by 2 until the final result becomes 1.
+
+Example
+
+16 → 8 → 4 → 2 → 1
+
+
+Since the number can be divided by 2 four times to reach 1, we conclude:
+
+16=2^4
+
+Thus, 16 is a power of 2.
+
+If the division process results in any value other than 1, the number is not a power of 2.
+
+2. Power of 3
+
+Similarly, a number is a power of 3 if it can be repeatedly divided by 3 until the result becomes 1.
+
+Example
+
+81 → 27 → 9 → 3 → 1
+
+81=3^4
+
+Since the number reaches 1 after repeated division by 3, 81 is a power of 3.
+
+3. Power of 4
+
+A number is a power of 4 if it can be repeatedly divided by 4 until the final result becomes 1.
+
+Example
+
+64 → 16 → 4 → 1
+
+64=4^3
+
+Therefore, 64 is a power of 4.
