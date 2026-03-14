@@ -31,13 +31,7 @@ class Solution {
             n=n/10;
         }
 
-        if(rev==x)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
+        return  rev==x
         }
     }
 }
