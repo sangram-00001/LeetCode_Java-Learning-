@@ -12,6 +12,6 @@ class Solution{
             }
         }
         int ans=(max-1)*(smax-1);
-        return new int[]{ans};
+        return ans;
     }
 }
