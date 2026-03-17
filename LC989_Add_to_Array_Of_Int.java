@@ -12,17 +12,14 @@ class Solution{
             int sum=numval+d+Carry;
             int digit=sum%10;
             Carry=sum/10;
-
             ans.add(digit);
             p--;
             k=k/10;
-
         }
         if(Carry>0){
             ans.add(Carry);
         }
         Collections.reverse(ans);
         return ans;
-
     }
 }
